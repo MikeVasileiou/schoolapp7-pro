@@ -6,3 +6,4 @@ public record ResponseMessageDTO(String code, String description) {
         this(code, ""); //auxiliary constructor
     }
 }
+

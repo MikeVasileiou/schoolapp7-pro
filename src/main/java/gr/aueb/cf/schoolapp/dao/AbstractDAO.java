@@ -15,7 +15,7 @@ import java.util.*;
  */
 public abstract class AbstractDAO<T extends IdentifiableEntity> implements IGenericDAO<T> {
 
-    //    private final Class<T> persistenceClass;
+//    private final Class<T> persistenceClass;
     private Class<T> persistenceClass;
 
     public AbstractDAO() {
